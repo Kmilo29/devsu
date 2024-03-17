@@ -196,7 +196,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"tipoCuenta\": \"CORRIENTE\",\r\n    \"numeroCuenta\": \"04853377\",\r\n    \"saldoInicial\": 100000.00,\r\n    \"estado\": true,\r\n    \"clienteId\": \"12345\"\r\n}\r\n",
+							"raw": "{\r\n    \"tipoCuenta\": \"AHORROS\",\r\n    \"numeroCuenta\": \"048533\",\r\n    \"saldoInicial\": 100000.00,\r\n    \"estado\": true,\r\n    \"clienteId\": \"12345\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -320,7 +320,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9000/reportes?clienteId=12345&fechaInicial=2024-03-11&fechaFinal=2024-03-17",
+							"raw": "http://localhost:9000/reportes?clienteId=12345&fechaInicial=2024-03-11&fechaFinal=2024-03-18",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -340,7 +340,7 @@
 								},
 								{
 									"key": "fechaFinal",
-									"value": "2024-03-17"
+									"value": "2024-03-18"
 								}
 							]
 						}
